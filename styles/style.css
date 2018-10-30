@@ -163,4 +163,51 @@ background: #007bbf;
 	margin-top: 120px;
 	background-color: silver;
 	padding: 30px;
+	box-sizing: border-box;
+}
+
+
+.interest {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 2px 2px;
+	width: 680px;
+}
+
+.interest-block  {
+	margin-top: 30px;
+}
+
+.interest-block .title {
+	margin-bottom: 20px;
+}
+
+.interest-block .interest-title {
+	font-family: bpg nino mtavruli;
+	padding: 5px;
+}
+
+
+.FsearchFilm {
+	display: block;
+	height: 190px;
+	margin-top: 30px;
+}
+.FsearchFilm-image  {
+    height: 130px;
+}
+
+.FsearchFilm-image img  {
+    height: 130px;
+    width: 200px;
+}
+.FsearchFilm-title {
+	width: 200px;
+	font-family: bpg nino mtavruli;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.FsearchFilm-box {
+	display: inline-block;
 }
