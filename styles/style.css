@@ -1,0 +1,119 @@
+.container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.main-menu {
+	background: #2a2a2a;
+}
+
+.menu-ul .menu-li {
+	color: white;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	padding-top: 16px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+	box-sizing: border-box;
+	font-family: bpg nino mtavruli bold;
+
+}
+
+.menu-ul .menu-li:hover {
+	background: #007bbf;
+}
+
+.search-bar .search {
+	float: right;
+	padding: 5px;
+
+}
+
+.search-bar {
+background: #007bbf;	
+}
+
+.slider-wrapper {
+	display: block;
+	background-image: url('../images/slider.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 500px;
+	margin-top: 20px;
+}
+
+.slider-wrapper .slider-caption-box {
+	background-color: #00000078;
+	color: white;
+	display: inline-block;
+	padding: 20px;
+	float: right;
+	font-size: 20px;
+	max-width: 360px;
+	font-family: bpg nino mtavruli bold;
+}
+
+.news-bar {
+	margin-top: 20px;
+
+}
+
+.news-bar .title {
+	font-family: bpg nino mtavruli;
+}
+
+
+
+
+.line-last {
+	background: black;
+	height: 1px;
+	width: 200px;
+	float: right;
+	display: inline-block;
+}
+
+.news-grid {
+	display: grid;
+	grid-template-columns: 215px 215px 215px;
+	grid-gap: 50px 30px;
+}
+
+.news-grid .news-box{
+	margin-top: 30px;
+}
+
+.news-box .featured-image img {
+	width: 215px;
+}
+
+.news-box .news-title {
+	padding: 5px;
+	font-family: bpg nino mtavruli bold;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+.footer {
+	display: block;
+	margin-top: 120px;
+	background-color: silver;
+	padding: 30px;
+}
