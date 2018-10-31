@@ -158,13 +158,7 @@ background: #007bbf;
 
 
 
-.footer {
-	display: block;
-	margin-top: 120px;
-	background-color: silver;
-	padding: 30px;
-	box-sizing: border-box;
-}
+
 
 
 .interest {
@@ -210,4 +204,61 @@ background: #007bbf;
 
 .FsearchFilm-box {
 	display: inline-block;
+    margin-right: 20px;
 }
+
+.FsearchFilm .title {
+	margin-bottom: 20px;
+}
+
+
+
+.footer {
+	display: block;
+	margin-top: 120px;
+	background-color: #2a2a2a;
+	padding: 30px;
+	box-sizing: border-box;
+	color: white;
+}
+
+
+.footer-navigation {
+	display: inline-block;
+	width: 120px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.footer-ul .footer-li {
+	text-align: center;
+	padding: 5px;
+	box-sizing: border-box;
+	display: table;
+}
+
+
+.footer-ul .footer-li:hover {
+	background: #007bbf;
+}
+
+.top-navigation{ 
+    display: inline-block;
+    width: 340px;
+    vertical-align: top;
+    margin-top: 10px;
+    padding: 3px;
+    box-sizing: border-box;
+ }
+
+  .top-li {
+ 	padding: 3px;
+ 	box-sizing: border-box;
+ 	font-family: bpg nino mtavruli;
+ 	text-align: center;
+    display: table;
+ }
+
+ .top-li:hover {
+    background: #007bbf;
+  }
